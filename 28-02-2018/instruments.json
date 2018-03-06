@@ -1,0 +1,72 @@
+[
+    {
+        "id": "gtr-1",
+        "type": "guitar",
+        "model": "f93",
+        "facturer": "fender",
+        "finish": "black"
+    },
+    {
+        "id": "gtr-2",
+        "type": "guitar",
+        "model": "f93",
+        "facturer": "fender",
+        "finish": "red"
+    },
+    {
+        "id": "gtr-3",
+        "type": "guitar",
+        "model": "fns34",
+        "facturer": "fender",
+        "finish": "blue"
+    },
+    {
+        "id": "bss-7",
+        "type": "bass guitar",
+        "model": "ibnz-77",
+        "facturer": "Ibanez",
+        "finish": "Natural"
+    },
+    {
+        "id": "bss-02",
+        "type": "bass guitar",
+        "model": "ibnz-77",
+        "facturer": "Ibanez",
+        "finish": "Red"
+    },
+    {
+        "id": "bss-08",
+        "type": "bass guitar",
+        "model": "ibnz-77",
+        "facturer": "Ibanez",
+        "finish": "Red"
+    },
+    {
+        "id": "bss-21",
+        "type": "bass guitar",
+        "model": "ibnz-77",
+        "facturer": "Ibanez",
+        "finish": "Red"
+    },
+    {
+        "id": "gtr-10",
+        "type": "guitar",
+        "model": "f93",
+        "facturer": "fender",
+        "finish": "black"
+    },
+    {
+        "id": "gtr-20",
+        "type": "guitar",
+        "model": "f93",
+        "facturer": "fender",
+        "finish": "green"
+    },
+    {
+        "id": "gtr-30",
+        "type": "guitar",
+        "model": "fns34",
+        "facturer": "fender",
+        "finish": "gray"
+    }
+]

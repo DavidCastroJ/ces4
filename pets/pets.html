@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pets</title>
+</head>
+<body>
+    <form class="center petsForm">
+        <select id="petSpecies" onchange="enableFields()">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="other">Other</option>
+        </select>
+        <br/>
+        <input type="text" id="name" placeholder="Enter pet name" onchange="validateData()"/>
+        <br/>
+        <input type="number" id="age" placeholder="Enter pet age" step="1" min="0" onchange="validateData()"/>
+        <br/>
+        <input type="number" id="size" placeholder="Enter size" step="0.01" min="0.01" onchange="validateData()"/>
+        <br/>
+        <label id="labelIsVaccinated" for="isVaccinated"><input type="checkbox" id="isVaccinated"/> Is Vaccinated?</label>
+        <input type="text" id="family" placeholder="Enter dog family" onchange="validateData()"/>
+        <br/>
+        <button id="btnShowInfo" type="button" onclick="showInfo()">Show Info</button>
+    </form>
+    <script src="./pet.js"></script>
+    <script src="./dog.js"></script>
+    <script src="./cat.js"></script>
+    <script src="./petsCreation.js"></script>
+    <script type="text/javascript">
+        enableFields();
+        validateData();
+    </script>
+</body>
+</html>
